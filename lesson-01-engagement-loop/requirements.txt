@@ -1,0 +1,9 @@
+# Lesson 1 runs on the standard library plus these three.
+# No API keys. No services. No network access at runtime.
+pydantic>=2.9,<3.0
+pytest>=8.3
+pytest-cov>=5.0
+
+# Static checks. Both are free and run offline.
+mypy>=1.11
+ruff>=0.6

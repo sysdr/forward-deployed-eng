@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 340" width="840" height="340" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">The forward deployed engagement loop</title>
+  <desc id="dsc">Seven stages run left to right: Discover, Scope, Spike, Pilot, Harden, Deploy and Hand off. The first three are highlighted as the subject of this lesson. A dashed orange path drops out from Spike and Pilot to a stop marker, showing the exit that kill criteria make possible. A faint line returns from Hand off to Discover for the next problem.</desc>
+
+  <defs>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.4" flood-opacity="0.15"/>
+    </filter>
+    <marker id="tip" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 1.2 L9.4 5 L0 8.8 z" fill="#8a97a8"/>
+    </marker>
+    <marker id="tipo" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 1.2 L9.4 5 L0 8.8 z" fill="#b3541e"/>
+    </marker>
+    <style>
+      .st   { font: 600 13px "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; fill: #1b2430; }
+      .ttl  { font: 600 17px "Segoe UI", system-ui, sans-serif; fill: #1b2430; }
+      .note { font: 13px "Segoe UI", system-ui, sans-serif; fill: #5a6b81; }
+      .kill { font: 600 13px "Segoe UI", system-ui, sans-serif; fill: #b3541e; }
+      .lnk  { stroke: #8a97a8; stroke-width: 2.2; fill: none; stroke-linecap: round; marker-end: url(#tip); }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="840" height="340" fill="#ffffff"/>
+  <text class="ttl" x="420" y="34" text-anchor="middle" dominant-baseline="middle">The job is seven stages. Courses usually start at the fourth.</text>
+
+  <g filter="url(#soft)">
+    <rect x="42"  y="120" width="96" height="78" rx="16" fill="#e8eff8" stroke="#1f4e79" stroke-width="2.6"/>
+    <rect x="152" y="120" width="96" height="78" rx="16" fill="#e8eff8" stroke="#1f4e79" stroke-width="2.6"/>
+    <rect x="262" y="120" width="96" height="78" rx="16" fill="#e8eff8" stroke="#1f4e79" stroke-width="2.6"/>
+    <rect x="372" y="120" width="96" height="78" rx="16" fill="#f7f9fb" stroke="#8a97a8" stroke-width="2"/>
+    <rect x="482" y="120" width="96" height="78" rx="16" fill="#f7f9fb" stroke="#8a97a8" stroke-width="2"/>
+    <rect x="592" y="120" width="96" height="78" rx="16" fill="#f7f9fb" stroke="#8a97a8" stroke-width="2"/>
+    <rect x="702" y="120" width="96" height="78" rx="16" fill="#f7f9fb" stroke="#8a97a8" stroke-width="2"/>
+  </g>
+
+  <text class="st" x="90"  y="159" text-anchor="middle" dominant-baseline="middle">Discover</text>
+  <text class="st" x="200" y="159" text-anchor="middle" dominant-baseline="middle">Scope</text>
+  <text class="st" x="310" y="159" text-anchor="middle" dominant-baseline="middle">Spike</text>
+  <text class="st" x="420" y="159" text-anchor="middle" dominant-baseline="middle">Pilot</text>
+  <text class="st" x="530" y="159" text-anchor="middle" dominant-baseline="middle">Harden</text>
+  <text class="st" x="640" y="159" text-anchor="middle" dominant-baseline="middle">Deploy</text>
+  <text class="st" x="750" y="159" text-anchor="middle" dominant-baseline="middle">Hand off</text>
+
+  <path class="lnk" d="M140 159 H150"/>
+  <path class="lnk" d="M250 159 H260"/>
+  <path class="lnk" d="M360 159 H370"/>
+  <path class="lnk" d="M470 159 H480"/>
+  <path class="lnk" d="M580 159 H590"/>
+  <path class="lnk" d="M690 159 H700"/>
+
+  <path d="M90 104 v-16 h220 v16" stroke="#1f4e79" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <text class="note" x="200" y="72" text-anchor="middle" dominant-baseline="middle" fill="#1f4e79">this lesson</text>
+
+  <path d="M310 202 C310 244 250 244 232 252" stroke="#b3541e" stroke-width="2.2" fill="none"
+        stroke-dasharray="6 5" stroke-linecap="round" marker-end="url(#tipo)"/>
+  <path d="M420 202 C420 250 300 258 231 262" stroke="#b3541e" stroke-width="2.2" fill="none"
+        stroke-dasharray="6 5" stroke-linecap="round" marker-end="url(#tipo)"/>
+  <g filter="url(#soft)">
+    <circle cx="196" cy="256" r="30" fill="#fdf0e4" stroke="#b3541e" stroke-width="2.6"/>
+  </g>
+  <text class="kill" x="196" y="256" text-anchor="middle" dominant-baseline="middle">stop</text>
+  <text class="note" x="196" y="308" text-anchor="middle" dominant-baseline="middle">kill criteria, agreed in Scope</text>
+
+  <path d="M750 202 C750 296 620 300 560 300" stroke="#8a97a8" stroke-width="1.8" fill="none"
+        stroke-dasharray="4 6" stroke-linecap="round"/>
+  <path d="M560 300 C480 300 90 304 90 202" stroke="#8a97a8" stroke-width="1.8" fill="none"
+        stroke-dasharray="4 6" stroke-linecap="round" marker-end="url(#tip)"/>
+</svg>

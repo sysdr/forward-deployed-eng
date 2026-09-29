@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Where the current process succeeds and where it fails</title>
+  <desc id="dsc">A vague question mark on the left feeds forty small squares: twenty blue ones that carry a claim number and twenty orange ones phrased in plain language. Both pass through a single search step. On the right, two rings show the outcome: the blue group is answered almost entirely, the orange group barely at all. A bracket marks the untouched orange remainder as the work of the engagement.</desc>
+
+  <defs>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-opacity="0.16"/>
+    </filter>
+    <marker id="tip" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 1.2 L9.4 5 L0 8.8 z" fill="#5a6b81"/>
+    </marker>
+    <style>
+      .lnk  { stroke: #5a6b81; stroke-width: 2.2; fill: none; stroke-linecap: round; marker-end: url(#tip); }
+      .cap  { font: 600 14px "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; fill: #1b2430; }
+      .sub  { font: 13px "Segoe UI", system-ui, sans-serif; fill: #5a6b81; }
+      .big  { font: 700 24px "Segoe UI", system-ui, sans-serif; fill: #1b2430; }
+      .ttl  { font: 600 17px "Segoe UI", system-ui, sans-serif; fill: #1b2430; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="840" height="400" fill="#ffffff"/>
+  <text class="ttl" x="420" y="36" text-anchor="middle" dominant-baseline="middle">Same search. Two completely different outcomes.</text>
+
+  <!-- the vague ask -->
+  <g filter="url(#soft)">
+    <rect x="44" y="118" width="132" height="104" rx="22" fill="#e8eff8" stroke="#1f4e79" stroke-width="2.4"/>
+  </g>
+  <path d="M78 222 L74 246 L100 222 z" fill="#e8eff8" stroke="#1f4e79" stroke-width="2.4" stroke-linejoin="round"/>
+  <text class="big" x="110" y="170" text-anchor="middle" dominant-baseline="middle" style="font-size:44px">?</text>
+  <text class="sub" x="110" y="272" text-anchor="middle" dominant-baseline="middle">the ask</text>
+
+  <path class="lnk" d="M186 170 H236"/>
+
+  <!-- forty questions, as shapes rather than words -->
+  <g transform="translate(248,104)">
+    <g fill="#cfe0f2" stroke="#1f4e79" stroke-width="1.6">
+      <rect x="0"   y="0"  width="14" height="14" rx="4"/><rect x="19"  y="0"  width="14" height="14" rx="4"/>
+      <rect x="38"  y="0"  width="14" height="14" rx="4"/><rect x="57"  y="0"  width="14" height="14" rx="4"/>
+      <rect x="76"  y="0"  width="14" height="14" rx="4"/><rect x="95"  y="0"  width="14" height="14" rx="4"/>
+      <rect x="114" y="0"  width="14" height="14" rx="4"/><rect x="133" y="0"  width="14" height="14" rx="4"/>
+      <rect x="152" y="0"  width="14" height="14" rx="4"/><rect x="171" y="0"  width="14" height="14" rx="4"/>
+      <rect x="0"   y="19" width="14" height="14" rx="4"/><rect x="19"  y="19" width="14" height="14" rx="4"/>
+      <rect x="38"  y="19" width="14" height="14" rx="4"/><rect x="57"  y="19" width="14" height="14" rx="4"/>
+      <rect x="76"  y="19" width="14" height="14" rx="4"/><rect x="95"  y="19" width="14" height="14" rx="4"/>
+      <rect x="114" y="19" width="14" height="14" rx="4"/><rect x="133" y="19" width="14" height="14" rx="4"/>
+      <rect x="152" y="19" width="14" height="14" rx="4"/><rect x="171" y="19" width="14" height="14" rx="4"/>
+    </g>
+    <text class="sub" x="93" y="52" text-anchor="middle" dominant-baseline="middle">carries a claim number</text>
+  </g>
+
+  <g transform="translate(248,196)">
+    <g fill="#f8dcc0" stroke="#b3541e" stroke-width="1.6">
+      <rect x="0"   y="0"  width="14" height="14" rx="4"/><rect x="19"  y="0"  width="14" height="14" rx="4"/>
+      <rect x="38"  y="0"  width="14" height="14" rx="4"/><rect x="57"  y="0"  width="14" height="14" rx="4"/>
+      <rect x="76"  y="0"  width="14" height="14" rx="4"/><rect x="95"  y="0"  width="14" height="14" rx="4"/>
+      <rect x="114" y="0"  width="14" height="14" rx="4"/><rect x="133" y="0"  width="14" height="14" rx="4"/>
+      <rect x="152" y="0"  width="14" height="14" rx="4"/><rect x="171" y="0"  width="14" height="14" rx="4"/>
+      <rect x="0"   y="19" width="14" height="14" rx="4"/><rect x="19"  y="19" width="14" height="14" rx="4"/>
+      <rect x="38"  y="19" width="14" height="14" rx="4"/><rect x="57"  y="19" width="14" height="14" rx="4"/>
+      <rect x="76"  y="19" width="14" height="14" rx="4"/><rect x="95"  y="19" width="14" height="14" rx="4"/>
+      <rect x="114" y="19" width="14" height="14" rx="4"/><rect x="133" y="19" width="14" height="14" rx="4"/>
+      <rect x="152" y="19" width="14" height="14" rx="4"/><rect x="171" y="19" width="14" height="14" rx="4"/>
+    </g>
+    <text class="sub" x="93" y="52" text-anchor="middle" dominant-baseline="middle">plain language</text>
+  </g>
+
+  <path class="lnk" d="M440 128 H492"/>
+  <path class="lnk" d="M440 212 H492"/>
+
+  <!-- one search step, applied to both -->
+  <g filter="url(#soft)">
+    <circle cx="546" cy="170" r="46" fill="#f7f9fb" stroke="#5a6b81" stroke-width="2.4"/>
+  </g>
+  <path d="M578 202 L600 224" stroke="#5a6b81" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <text class="cap" x="546" y="170" text-anchor="middle" dominant-baseline="middle">search</text>
+
+  <path class="lnk" d="M596 140 C640 116 646 112 676 108"/>
+  <path class="lnk" d="M596 202 C640 226 646 232 676 240"/>
+
+  <!-- outcomes -->
+  <g filter="url(#soft)">
+    <circle cx="742" cy="104" r="50" fill="#e8f3ec" stroke="#2f6b46" stroke-width="3"/>
+  </g>
+  <text class="big" x="742" y="104" text-anchor="middle" dominant-baseline="middle">100%</text>
+  <text class="sub" x="742" y="172" text-anchor="middle" dominant-baseline="middle">answered</text>
+
+  <g filter="url(#soft)">
+    <circle cx="742" cy="262" r="50" fill="#fdf0e4" stroke="#b3541e" stroke-width="3"/>
+  </g>
+  <path d="M742 262 L742 212 A50 50 0 0 1 782.5 232.6 Z" fill="#f8dcc0" stroke="none"/>
+  <text class="big" x="742" y="262" text-anchor="middle" dominant-baseline="middle">15%</text>
+  <text class="sub" x="742" y="330" text-anchor="middle" dominant-baseline="middle">answered</text>
+
+  <path d="M676 352 C676 366 806 366 806 352" stroke="#b3541e" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <text class="cap" x="741" y="384" text-anchor="middle" dominant-baseline="middle" fill="#b3541e">the engagement</text>
+</svg>
