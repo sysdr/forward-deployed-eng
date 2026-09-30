@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 380" width="840" height="380" role="img" aria-labelledby="t1 d1">
+  <title id="t1">One door between their network and your code</title>
+  <desc id="d1">On the left, the customer's document store, shown with the four ways it misbehaves: server errors, rate limits, hangs, and truncated responses. A dashed line marks the boundary. Everything crosses it through a single client, which retries what is worth retrying, checks every record, tags every log line with the run, and returns a report rather than raising. On the right, the rest of the program, which can be written as though data simply arrives.</desc>
+  <defs>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-opacity="0.16"/>
+    </filter>
+    <marker id="tip" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 1.2 L9.4 5 L0 8.8 z" fill="#8a97a8"/>
+    </marker>
+    <style>
+      .cap { font: 600 14px "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; fill: #1b2430; }
+      .sub { font: 13px "Segoe UI", system-ui, sans-serif; fill: #5a6b81; }
+      .chip{ font: 600 13px "Segoe UI", system-ui, sans-serif; fill: #b3541e; }
+      .ttl { font: 600 17px "Segoe UI", system-ui, sans-serif; fill: #1b2430; }
+      .lnk { stroke: #8a97a8; stroke-width: 2.2; fill: none; stroke-linecap: round; marker-end: url(#tip); }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="840" height="380" fill="#ffffff"/>
+  <text class="ttl" x="420" y="34" text-anchor="middle" dominant-baseline="middle">Everything they can do to you arrives through one door</text>
+
+  <g filter="url(#soft)">
+    <rect x="40" y="86" width="248" height="212" rx="18" fill="#fdf0e4" stroke="#b3541e" stroke-width="2.4"/>
+  </g>
+  <text class="cap" x="164" y="112" text-anchor="middle" dominant-baseline="middle" fill="#b3541e">their document store</text>
+
+  <g fill="#f8dcc0" stroke="#b3541e" stroke-width="1.8">
+    <rect x="66"  y="140" width="86" height="34" rx="10"/>
+    <rect x="176" y="140" width="86" height="34" rx="10"/>
+    <rect x="66"  y="192" width="86" height="34" rx="10"/>
+    <rect x="176" y="192" width="86" height="34" rx="10"/>
+  </g>
+  <text class="chip" x="109" y="157" text-anchor="middle" dominant-baseline="middle">503</text>
+  <text class="chip" x="219" y="157" text-anchor="middle" dominant-baseline="middle">429</text>
+  <text class="chip" x="109" y="209" text-anchor="middle" dominant-baseline="middle">hangs</text>
+  <text class="chip" x="219" y="209" text-anchor="middle" dominant-baseline="middle">cut short</text>
+  <text class="sub" x="164" y="262" text-anchor="middle" dominant-baseline="middle">and a record with</text>
+  <text class="sub" x="164" y="280" text-anchor="middle" dominant-baseline="middle">a field missing</text>
+
+  <path d="M318 70 V320" stroke="#8a97a8" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" fill="none"/>
+  <text class="sub" x="318" y="344" text-anchor="middle" dominant-baseline="middle">their network ends here</text>
+
+  <path class="lnk" d="M288 192 H352"/>
+
+  <g filter="url(#soft)">
+    <rect x="356" y="112" width="192" height="160" rx="18" fill="#e8eff8" stroke="#1f4e79" stroke-width="2.6"/>
+  </g>
+  <text class="cap" x="452" y="138" text-anchor="middle" dominant-baseline="middle" fill="#1f4e79">the client</text>
+  <text class="sub" x="452" y="172" text-anchor="middle" dominant-baseline="middle">retry what can work</text>
+  <text class="sub" x="452" y="198" text-anchor="middle" dominant-baseline="middle">check every record</text>
+  <text class="sub" x="452" y="224" text-anchor="middle" dominant-baseline="middle">tag every log line</text>
+  <text class="sub" x="452" y="250" text-anchor="middle" dominant-baseline="middle">hand back a report</text>
+
+  <path class="lnk" d="M552 192 H616"/>
+
+  <g filter="url(#soft)">
+    <rect x="620" y="146" width="180" height="92" rx="18" fill="#e8f3ec" stroke="#2f6b46" stroke-width="2.6"/>
+  </g>
+  <text class="cap" x="710" y="180" text-anchor="middle" dominant-baseline="middle" fill="#2f6b46">the rest of your code</text>
+  <text class="sub" x="710" y="208" text-anchor="middle" dominant-baseline="middle">data simply arrives</text>
+</svg>
