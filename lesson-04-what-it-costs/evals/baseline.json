@@ -1,0 +1,8 @@
+{
+  "accuracy": 0.5952,
+  "accuracy_lookup": 1.0,
+  "accuracy_concept": 0.15,
+  "retrieval_hit_rate": 0.5854,
+  "model": "oracle",
+  "cases": 42
+}
