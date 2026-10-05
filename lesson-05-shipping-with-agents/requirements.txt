@@ -1,0 +1,8 @@
+# Lesson 3. Everything is free and offline after install.
+# The model runs locally via Ollama (see ../../lab). No API key anywhere.
+pydantic>=2.9,<3.0
+httpx>=0.27
+pytest>=8.3
+pytest-cov>=5.0
+mypy>=1.11
+ruff>=0.6

@@ -1,0 +1,24 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+# SIM905: a readable block of words beats a long list literal.
+# SIM117: the inner context manager takes its argument from the outer one,
+#         so combining them makes a longer line that reads worse.
+ignore = ["SIM905", "SIM117"]
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+python_version = "3.12"
+warn_unused_ignores = true
+strict_equality = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+# mypy cannot see through pydantic's @computed_field stacked on @property.
+[[tool.mypy.overrides]]
+module = ["src.models", "src.change"]
+disable_error_code = ["prop-decorator"]
